@@ -254,4 +254,23 @@
         </tar>
 
     </target>
+    <!--
+    ==================== PIT
+    -->
+    <path id="pit.classpath">
+        <pathelement location="lib-pit/pitest-0.33.jar" />
+        <pathelement location="lib-pit/pitest-ant-0.33.jar" />
+    </path>
+
+    <taskdef name="pitest" classname="org.pitest.ant.PitestTask" classpathref="pit.classpath" />
+
+    <target name="pit" depends="compile.tests" description="Runs PIT mutation test">
+        <pitest
+                pitClasspath="pit.classpath"
+                classPath="test.classpath"
+                targetClasses="org.apache.commons.collections4.*"
+                targetTests="org.apache.commons.collections4.*"
+                reportDir="${basedir}/pitReports"
+                sourceDir="${basedir}/src"/>
+    </target>
 </project>
