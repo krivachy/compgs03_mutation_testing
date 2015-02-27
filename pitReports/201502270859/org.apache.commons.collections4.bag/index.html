@@ -1,0 +1,195 @@
+<html>
+<head>
+  
+    <style type='text/css'>
+   
+   .tests{ 
+     width : 50%;
+     float : left;
+   }
+   
+   .mutees{
+     float : right;
+     width : 50%;
+   }
+   
+   .unit {
+     padding-top : 20px;
+     clear : both;
+   }
+   
+   .coverage_bar {
+    display : inline-block;
+    height : 1.1em;
+    width: 130px;
+    background: #FAA;
+    margin: 0 5px;
+    vertical-align: middle;
+    border: 1px solid #AAA;
+    position : relative;
+   }
+   
+   .coverage_complete {
+    display : inline-block;
+    height : 100%;
+    background: #DFD;
+    float: left;
+   }
+   
+   .coverage_ledgend {
+        position : absolute;
+        height : 100%;
+        width: 100%;
+        left : 0;
+        top : 0;
+        text-align : center;
+   }
+   
+   .line, .mut {
+        vertical-align : middle;
+   }
+   
+   .coveragePercentage {
+        display: inline-block;
+        width: 3em;
+        text-align: right;
+   }
+  </style>
+  
+</head>
+<body>
+
+<h1>Pit Test Coverage Report</h1>
+<h2>Package Summary</h2>
+<h3>org.apache.commons.collections4.bag</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Number of Classes</th>
+            <th>Line Coverage</th>
+            <th>Mutation Coverage</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>15</td>
+            <td>54% <div class="coverage_bar"><div class="coverage_complete" style="width:54%"></div><div class="coverage_ledgend">249/464</div></div></td>
+            <td>45% <div class="coverage_bar"><div class="coverage_complete" style="width:45%"></div><div class="coverage_ledgend">126/282</div></div></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h3>Breakdown by Class</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Line Coverage</th>
+            <th>Mutation Coverage</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td><a href="./AbstractBagDecorator.java.html">AbstractBagDecorator.java</a></td>
+            <td><div class="coveragePercentage">56% </div><div class="coverage_bar"><div class="coverage_complete" style="width:56%"></div><div class="coverage_ledgend">5/9</div></div></td>
+            <td><div class="coveragePercentage">60% </div><div class="coverage_bar"><div class="coverage_complete" style="width:60%"></div><div class="coverage_ledgend">3/5</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./AbstractMapBag.java.html">AbstractMapBag.java</a></td>
+            <td><div class="coveragePercentage">68% </div><div class="coverage_bar"><div class="coverage_complete" style="width:68%"></div><div class="coverage_ledgend">137/201</div></div></td>
+            <td><div class="coveragePercentage">55% </div><div class="coverage_bar"><div class="coverage_complete" style="width:55%"></div><div class="coverage_ledgend">72/131</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./AbstractSortedBagDecorator.java.html">AbstractSortedBagDecorator.java</a></td>
+            <td><div class="coveragePercentage">38% </div><div class="coverage_bar"><div class="coverage_complete" style="width:38%"></div><div class="coverage_ledgend">3/8</div></div></td>
+            <td><div class="coveragePercentage">25% </div><div class="coverage_bar"><div class="coverage_complete" style="width:25%"></div><div class="coverage_ledgend">1/4</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./CollectionBag.java.html">CollectionBag.java</a></td>
+            <td><div class="coveragePercentage">95% </div><div class="coverage_bar"><div class="coverage_complete" style="width:95%"></div><div class="coverage_ledgend">42/44</div></div></td>
+            <td><div class="coveragePercentage">79% </div><div class="coverage_bar"><div class="coverage_complete" style="width:79%"></div><div class="coverage_ledgend">22/28</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./CollectionSortedBag.java.html">CollectionSortedBag.java</a></td>
+            <td><div class="coveragePercentage">95% </div><div class="coverage_bar"><div class="coverage_complete" style="width:95%"></div><div class="coverage_ledgend">42/44</div></div></td>
+            <td><div class="coveragePercentage">75% </div><div class="coverage_bar"><div class="coverage_complete" style="width:75%"></div><div class="coverage_ledgend">21/28</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./HashBag.java.html">HashBag.java</a></td>
+            <td><div class="coveragePercentage">73% </div><div class="coverage_bar"><div class="coverage_complete" style="width:73%"></div><div class="coverage_ledgend">8/11</div></div></td>
+            <td><div class="coveragePercentage">50% </div><div class="coverage_bar"><div class="coverage_complete" style="width:50%"></div><div class="coverage_ledgend">2/4</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./PredicatedBag.java.html">PredicatedBag.java</a></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/9</div></div></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/7</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./PredicatedSortedBag.java.html">PredicatedSortedBag.java</a></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/7</div></div></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/5</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./SynchronizedBag.java.html">SynchronizedBag.java</a></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/19</div></div></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/6</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./SynchronizedSortedBag.java.html">SynchronizedSortedBag.java</a></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/15</div></div></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/5</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./TransformedBag.java.html">TransformedBag.java</a></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/16</div></div></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/15</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./TransformedSortedBag.java.html">TransformedSortedBag.java</a></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/14</div></div></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/14</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./TreeBag.java.html">TreeBag.java</a></td>
+            <td><div class="coveragePercentage">55% </div><div class="coverage_bar"><div class="coverage_complete" style="width:55%"></div><div class="coverage_ledgend">12/22</div></div></td>
+            <td><div class="coveragePercentage">42% </div><div class="coverage_bar"><div class="coverage_complete" style="width:42%"></div><div class="coverage_ledgend">5/12</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./UnmodifiableBag.java.html">UnmodifiableBag.java</a></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/23</div></div></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/9</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./UnmodifiableSortedBag.java.html">UnmodifiableSortedBag.java</a></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/22</div></div></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/9</div></div></td>
+        </tr>
+
+     </tbody>
+</table>
+<br/>
+
+
+
+<hr/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 0.33
+
+</body>
+</html>

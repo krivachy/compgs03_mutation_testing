@@ -1,0 +1,218 @@
+<html>
+<head>
+  
+    <style type='text/css'>
+   
+   .tests{ 
+     width : 50%;
+     float : left;
+   }
+   
+   .mutees{
+     float : right;
+     width : 50%;
+   }
+   
+   .unit {
+     padding-top : 20px;
+     clear : both;
+   }
+   
+   .coverage_bar {
+    display : inline-block;
+    height : 1.1em;
+    width: 130px;
+    background: #FAA;
+    margin: 0 5px;
+    vertical-align: middle;
+    border: 1px solid #AAA;
+    position : relative;
+   }
+   
+   .coverage_complete {
+    display : inline-block;
+    height : 100%;
+    background: #DFD;
+    float: left;
+   }
+   
+   .coverage_ledgend {
+        position : absolute;
+        height : 100%;
+        width : 100%;
+        left : 0;
+        top : 0;
+        text-align : center;
+   }
+   
+   .line, .mut {
+        vertical-align : middle;
+   }
+   
+   .coveragePercentage {
+    display: inline-block;
+    width: 3em;
+    text-align: right;
+   }
+  </style>
+  
+</head>
+<body>
+
+<h1>Pit Test Coverage Report</h1>
+
+<h3>Project Summary</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Number of Classes</th>
+            <th>Line Coverage</th>
+            <th>Mutation Coverage</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>242</td>
+            <td>43% <div class="coverage_bar"><div class="coverage_complete" style="width:43%"></div><div class="coverage_ledgend">4909/11526</div></div></td>
+            <td>38% <div class="coverage_bar"><div class="coverage_complete" style="width:38%"></div><div class="coverage_ledgend">2835/7528</div></div></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h3>Breakdown by Package</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Number of Classes</th>
+            <th>Line Coverage</th>
+            <th>Mutation Coverage</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4/index.html">org.apache.commons.collections4</a></td>
+            <td>20</td>
+            <td><div class="coveragePercentage">43% </div><div class="coverage_bar"><div class="coverage_complete" style="width:43%"></div><div class="coverage_ledgend">603/1417</div></div></td>
+            <td><div class="coveragePercentage">39% </div><div class="coverage_bar"><div class="coverage_complete" style="width:39%"></div><div class="coverage_ledgend">403/1031</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.bag/index.html">org.apache.commons.collections4.bag</a></td>
+            <td>15</td>
+            <td><div class="coveragePercentage">54% </div><div class="coverage_bar"><div class="coverage_complete" style="width:54%"></div><div class="coverage_ledgend">249/464</div></div></td>
+            <td><div class="coveragePercentage">45% </div><div class="coverage_bar"><div class="coverage_complete" style="width:45%"></div><div class="coverage_ledgend">126/282</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.bidimap/index.html">org.apache.commons.collections4.bidimap</a></td>
+            <td>11</td>
+            <td><div class="coveragePercentage">21% </div><div class="coverage_bar"><div class="coverage_complete" style="width:21%"></div><div class="coverage_ledgend">242/1145</div></div></td>
+            <td><div class="coveragePercentage">16% </div><div class="coverage_bar"><div class="coverage_complete" style="width:16%"></div><div class="coverage_ledgend">108/678</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.collection/index.html">org.apache.commons.collections4.collection</a></td>
+            <td>8</td>
+            <td><div class="coveragePercentage">87% </div><div class="coverage_bar"><div class="coverage_complete" style="width:87%"></div><div class="coverage_ledgend">278/321</div></div></td>
+            <td><div class="coveragePercentage">83% </div><div class="coverage_bar"><div class="coverage_complete" style="width:83%"></div><div class="coverage_ledgend">144/174</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.comparators/index.html">org.apache.commons.collections4.comparators</a></td>
+            <td>7</td>
+            <td><div class="coveragePercentage">80% </div><div class="coverage_bar"><div class="coverage_complete" style="width:80%"></div><div class="coverage_ledgend">177/222</div></div></td>
+            <td><div class="coveragePercentage">57% </div><div class="coverage_bar"><div class="coverage_complete" style="width:57%"></div><div class="coverage_ledgend">104/182</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.functors/index.html">org.apache.commons.collections4.functors</a></td>
+            <td>52</td>
+            <td><div class="coveragePercentage">83% </div><div class="coverage_bar"><div class="coverage_complete" style="width:83%"></div><div class="coverage_ledgend">626/750</div></div></td>
+            <td><div class="coveragePercentage">79% </div><div class="coverage_bar"><div class="coverage_complete" style="width:79%"></div><div class="coverage_ledgend">362/461</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.iterators/index.html">org.apache.commons.collections4.iterators</a></td>
+            <td>40</td>
+            <td><div class="coveragePercentage">78% </div><div class="coverage_bar"><div class="coverage_complete" style="width:78%"></div><div class="coverage_ledgend">832/1060</div></div></td>
+            <td><div class="coveragePercentage">79% </div><div class="coverage_bar"><div class="coverage_complete" style="width:79%"></div><div class="coverage_ledgend">460/580</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.keyvalue/index.html">org.apache.commons.collections4.keyvalue</a></td>
+            <td>6</td>
+            <td><div class="coveragePercentage">94% </div><div class="coverage_bar"><div class="coverage_complete" style="width:94%"></div><div class="coverage_ledgend">108/115</div></div></td>
+            <td><div class="coveragePercentage">88% </div><div class="coverage_bar"><div class="coverage_complete" style="width:88%"></div><div class="coverage_ledgend">80/91</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.list/index.html">org.apache.commons.collections4.list</a></td>
+            <td>13</td>
+            <td><div class="coveragePercentage">20% </div><div class="coverage_bar"><div class="coverage_complete" style="width:20%"></div><div class="coverage_ledgend">244/1200</div></div></td>
+            <td><div class="coveragePercentage">15% </div><div class="coverage_bar"><div class="coverage_complete" style="width:15%"></div><div class="coverage_ledgend">119/804</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.map/index.html">org.apache.commons.collections4.map</a></td>
+            <td>38</td>
+            <td><div class="coveragePercentage">30% </div><div class="coverage_bar"><div class="coverage_complete" style="width:30%"></div><div class="coverage_ledgend">958/3151</div></div></td>
+            <td><div class="coveragePercentage">24% </div><div class="coverage_bar"><div class="coverage_complete" style="width:24%"></div><div class="coverage_ledgend">494/2028</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.queue/index.html">org.apache.commons.collections4.queue</a></td>
+            <td>5</td>
+            <td><div class="coveragePercentage">93% </div><div class="coverage_bar"><div class="coverage_complete" style="width:93%"></div><div class="coverage_ledgend">169/181</div></div></td>
+            <td><div class="coveragePercentage">88% </div><div class="coverage_bar"><div class="coverage_complete" style="width:88%"></div><div class="coverage_ledgend">105/120</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.sequence/index.html">org.apache.commons.collections4.sequence</a></td>
+            <td>7</td>
+            <td><div class="coveragePercentage">86% </div><div class="coverage_bar"><div class="coverage_complete" style="width:86%"></div><div class="coverage_ledgend">116/135</div></div></td>
+            <td><div class="coveragePercentage">90% </div><div class="coverage_bar"><div class="coverage_complete" style="width:90%"></div><div class="coverage_ledgend">151/167</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.set/index.html">org.apache.commons.collections4.set</a></td>
+            <td>13</td>
+            <td><div class="coveragePercentage">75% </div><div class="coverage_bar"><div class="coverage_complete" style="width:75%"></div><div class="coverage_ledgend">267/358</div></div></td>
+            <td><div class="coveragePercentage">73% </div><div class="coverage_bar"><div class="coverage_complete" style="width:73%"></div><div class="coverage_ledgend">157/216</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.splitmap/index.html">org.apache.commons.collections4.splitmap</a></td>
+            <td>2</td>
+            <td><div class="coveragePercentage">78% </div><div class="coverage_bar"><div class="coverage_complete" style="width:78%"></div><div class="coverage_ledgend">40/51</div></div></td>
+            <td><div class="coveragePercentage">69% </div><div class="coverage_bar"><div class="coverage_complete" style="width:69%"></div><div class="coverage_ledgend">22/32</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.trie/index.html">org.apache.commons.collections4.trie</a></td>
+            <td>4</td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/916</div></div></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/626</div></div></td>
+        </tr>
+
+        <tr>
+            <td><a href="./org.apache.commons.collections4.trie.analyzer/index.html">org.apache.commons.collections4.trie.analyzer</a></td>
+            <td>1</td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/40</div></div></td>
+            <td><div class="coveragePercentage">0% </div><div class="coverage_bar"><div class="coverage_complete" style="width:0%"></div><div class="coverage_ledgend">0/56</div></div></td>
+        </tr>
+
+     </tbody>
+</table>
+<br/>
+
+
+
+<hr/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 0.33
+
+</body>
+</html>
