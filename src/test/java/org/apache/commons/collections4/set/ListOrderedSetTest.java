@@ -147,7 +147,8 @@ public class ListOrderedSetTest<E>
         list.add((E) ZERO);
         list.add((E) TWO);
 
-        set.addAll(0, list);
+        final boolean result1 = set.addAll(0, list);
+        assertFalse(result1);
         assertEquals(3, set.size());
         assertSame(ZERO, set.get(0));
         assertSame(ONE, set.get(1));
@@ -155,7 +156,8 @@ public class ListOrderedSetTest<E>
 
         list.add(0, (E) THREE); // list = [3,0,2]
         set.remove(TWO); //  set = [0,1]
-        set.addAll(1, list);
+        final boolean result2 = set.addAll(1, list);
+        assertTrue(result2);
         assertEquals(4, set.size());
         assertSame(ZERO, set.get(0));
         assertSame(THREE, set.get(1));
